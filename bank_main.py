@@ -30,13 +30,13 @@ def custom_getpass(prompt="Password: "):
 positive_responses = {'y', 'yes', 'ye', 'why not', 'sure', 'certainly', 'for sure', 'of course', 'obviously'}
 negative_responses = {'no', 'n', 'nah', 'na', 'nope', 'not feeling it', 'obviously not', 'hell no'}
 
-API_KEY = '9eedc1631ae7d7847e3e3592'
-BASE_URL = 'https://v6.exchangerate-api.com/v6'
+API_KEY = 'urapikeyforconvertingcurrency'
+BASE_URL = 'baseurlforconvertingcurrency'
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
 
-sender_email = 'nagamanojp@gmail.com'
-sender_password = 'nwwneuyfititykck'
+sender_email = 'urgmailapiemail'
+sender_password = 'theapipassword'
 
 with open('minerstuff.json', 'r') as file:
             data = file.read()
@@ -49,8 +49,8 @@ def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Sairam@09",
-        database="sys"
+        password="ursqlpassword",
+        database="ursqldatabase"
     )
 
 
