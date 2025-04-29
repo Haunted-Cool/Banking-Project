@@ -1,0 +1,46 @@
+{
+    "users": {
+        "Haunt": {
+            "Savings Goals": [
+                {
+                    "Goal Name": "Vacation",
+                    "Category": "Vacation",
+                    "Priority": "High",
+                    "Target Amount": 200.0,
+                    "Current Amount": 200.0,
+                    "Remaining Amount": 0,
+                    "Timeframe (Months)": 3,
+                    "Monthly Savings Recommendation": 66.0,
+                    "Interest Rate": 0.0,
+                    "Start Date": "2024-12-31",
+                    "End Date": "2025-03-31",
+                    "Status": "Completed",
+                    "History": [
+                        {
+                            "Date": "2024-12-31",
+                            "Action": "Created goal 'Vacation' with target $200.0."
+                        },
+                        {
+                            "Date": "2024-12-31",
+                            "Action": "Added contribution of $198.00."
+                        }
+                    ]
+                }
+            ],
+            "categories": [
+                "robux"
+            ],
+            "money_spent": [
+                200.0
+            ]
+        },
+        "Manoj2": {
+            "categories": [
+                "robux"
+            ],
+            "money_spent": [
+                200.0
+            ]
+        }
+    }
+}
